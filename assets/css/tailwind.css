@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@include font-face(Raleway, '@/assets/fonts/Raleway-Bold', 700, bold, ttf);
+@include font-face(Raleway, '@/assets/fonts/Raleway-Medium', 500, medium, ttf);
+@include font-face(Roboto, '@/assets/fonts/Raleway-Medium', 500, medium, ttf);
+@include font-face(Roboto, '@/assets/fonts/Raleway-Medium', 400, normal, ttf);
+@include font-face(
+  Raleway,
+  '@/assets/fonts/Raleway-SemiBold',
+  600,
+  semiBold,
+  ttf
+);
