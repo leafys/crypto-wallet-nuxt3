@@ -9,6 +9,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        sm: { max: '511px' },
+      },
+
       fontFamily: {
         raleway: ['Raleway'],
         roboto: ['Roboto'],
